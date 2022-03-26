@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #202120;
   color: #fff;
@@ -9,7 +12,7 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .container h1 {
@@ -103,7 +106,7 @@ body {
 
 @media (max-width: 600px) {
   .resultado {
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .resultado p {
